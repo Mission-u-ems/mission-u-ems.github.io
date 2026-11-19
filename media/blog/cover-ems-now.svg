@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+<defs>
+<radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#0b1d3d"/><stop offset=".6" stop-color="#060d1c"/><stop offset="1" stop-color="#04070d"/></radialGradient>
+<radialGradient id="dot"><stop offset="0" stop-color="#eafcff"/><stop offset=".35" stop-color="#5fe3ff" stop-opacity=".5"/><stop offset="1" stop-color="#1d6bff" stop-opacity="0"/></radialGradient>
+<style>
+.g{stroke:rgba(95,227,255,.07);stroke-width:1;fill:none}
+.t{stroke:rgba(95,227,255,.28);stroke-width:1.2;fill:none}
+.r{stroke:#5fe3ff;stroke-width:2;fill:none;stroke-dasharray:110 1900;stroke-dashoffset:2010;animation:run 4s linear infinite}
+.h{stroke:rgba(95,227,255,.25);stroke-width:7;filter:blur(3px)}
+.n{fill:none;stroke:#dff8ff;stroke-width:1.2}
+.f{fill:url(#dot);opacity:.0;animation:fl 4s ease-out infinite}
+.l{font:500 15px system-ui,-apple-system,Segoe UI,Arial,sans-serif;letter-spacing:4px;fill:#93a7c2;text-anchor:middle}
+@keyframes run{to{stroke-dashoffset:0}}
+@keyframes fl{0%,100%{opacity:0}8%{opacity:1}30%{opacity:0}}
+</style>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<path class="g" d="M0 135H1200M0 270H1200M0 405H1200M0 540H1200M150 0V675M300 0V675M450 0V675M600 0V675M750 0V675M900 0V675M1050 0V675"/>
+<path id="p" class="t" d="M0 360H150l20-60 20 120 20-60H360l18-90 18 150 18-60H560l20-50 20 100 20-50H770l18-120 18 180 18-60H990l20-40 20 80 20-40H1200"/>
+<use href="#p" class="r h"/><use href="#p" class="r"/>
+<g><circle class="f" cx="190" cy="360" r="60" style="animation-delay:.45s"/><circle class="n" cx="190" cy="360" r="9"/><text class="l" x="190" y="470">SPORT</text></g>
+<g><circle class="f" cx="396" cy="360" r="60" style="animation-delay:.95s"/><circle class="n" cx="396" cy="360" r="9"/><text class="l" x="396" y="250">REHAB</text></g>
+<g><circle class="f" cx="600" cy="360" r="60" style="animation-delay:1.45s"/><circle class="n" cx="600" cy="360" r="9"/><text class="l" x="600" y="470">SPACE</text></g>
+<g><circle class="f" cx="806" cy="360" r="60" style="animation-delay:2s"/><circle class="n" cx="806" cy="360" r="9"/><text class="l" x="806" y="200">TECH</text></g>
+<g><circle class="f" cx="1030" cy="360" r="60" style="animation-delay:2.6s"/><circle class="n" cx="1030" cy="360" r="9"/><text class="l" x="1030" y="470">FITNESS</text></g>
+</svg>

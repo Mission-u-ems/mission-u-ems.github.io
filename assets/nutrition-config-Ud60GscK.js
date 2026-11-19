@@ -1,0 +1,1 @@
+const s="https://script.google.com/macros/s/AKfycbygy4KOD4yxPR12PQVkGHvaYBprUkrY5eSJhkJ8T5Hwcu0ONIi5HOu4pF_6NFnRNxQm/exec",t="2026-11-15-v1.4",e={text:"ANAD Eating Disorders Helpline",url:"https://anad.org/get-support/eating-disorders-helpline/"};export{t as F,s as N,e as S};

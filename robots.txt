@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mission-u-ems.com/sitemap.xml

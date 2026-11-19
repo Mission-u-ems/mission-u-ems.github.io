@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#04070d"/><stop offset=".65" stop-color="#0a1a38"/><stop offset="1" stop-color="#132a55"/></linearGradient>
+<radialGradient id="sun" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#5fe3ff" stop-opacity=".35"/><stop offset="1" stop-color="#1d6bff" stop-opacity="0"/></radialGradient>
+<style>
+.k{stroke:rgba(223,248,255,.55);stroke-width:1.2;fill:none;stroke-linejoin:round}
+.w{stroke:rgba(95,227,255,.3);stroke-width:1;fill:none}
+.r{stroke:#5fe3ff;stroke-width:1.8;fill:none;stroke-dasharray:90 1500;stroke-dashoffset:1590;animation:run 4.5s linear infinite}
+.ring{fill:none;stroke:#5fe3ff;stroke-width:1;transform-origin:600px 330px;animation:ping 3.2s ease-out infinite}
+@keyframes run{to{stroke-dashoffset:0}}
+@keyframes ping{from{transform:scale(.6);opacity:.9}to{transform:scale(2.2);opacity:0}}
+</style>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<circle cx="600" cy="330" r="220" fill="url(#sun)"/>
+<circle class="ring" cx="600" cy="330" r="80"/><circle class="ring" cx="600" cy="330" r="80" style="animation-delay:1.6s"/>
+<circle cx="600" cy="330" r="80" class="k"/>
+<path id="sky" class="k" d="M0 520H90V470H130V500H190V430H230V480H300V455H340V510H420L450 400 480 510H560V470H600V440H640V470H700V500H760V420H800V480H870V450H910V505H990V465H1040V495H1100V475H1200"/>
+<use href="#sky" class="r"/>
+<path class="w" d="M0 560Q150 545 300 560T600 560T900 560T1200 560M0 600Q150 585 300 600T600 600T900 600T1200 600"/>
+</svg>

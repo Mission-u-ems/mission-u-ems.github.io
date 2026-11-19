@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mission U Nutrition Review: Client Questionnaire</title>
+<meta name="description" content="Private questionnaire for Mission U clients with a personal access code.">
+
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#04070d">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/michroma.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add('js')</script>
+  <script type="module" crossorigin src="/assets/nutrition-Y5cMcM9D.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="/assets/nutrition-config-Ud60GscK.js">
+  <link rel="stylesheet" crossorigin href="/assets/style-ddCgPrU8.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <a class="logo" href="/" aria-label="Mission U home">
+    <span class="logo-word">MISSION</span><svg class="logo-u" viewBox="0 0 40 44" aria-hidden="true"><path d="M8 4v20a12 12 0 0 0 24 0V4" /></svg>
+  </a>
+  <nav aria-label="Main">
+    <a href="/#ems">EMS</a>
+    <a href="/#how">Session</a>
+    <a href="/#results">Results</a>
+    <a href="/#prices">Prices</a>
+    <a href="/#faq">FAQ</a>
+    <a href="/blog/">Blog</a>
+  </nav>
+  <a class="btn btn-sm" href="/#book">Book $60 trial</a>
+</header>
+
+<main id="main" class="nf-page">
+  <div class="nf">
+    <header class="nf-head">
+      <p class="eyebrow">Mission U · Clients only</p>
+      <h1>Nutrition Review<span>Client Questionnaire</span></h1>
+    </header>
+
+    
+    <section class="nf-card" id="gate" aria-labelledby="gate-t">
+      <h2 id="gate-t" class="nf-h">Enter your access code</h2>
+      <p class="nf-lead">Takes about 15 minutes, plus what you ate on one typical day. Your answers are private.</p>
+      <form id="gate-form" novalidate>
+        <div class="f">
+          <label class="f-l" for="code">Access code</label>
+          <input class="nf-in in-code" id="code" name="code" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" minlength="6" maxlength="12" required placeholder="MU-XXXXXX">
+          <p class="f-err" id="gate-err" role="alert" hidden></p>
+        </div>
+        <button class="btn nf-go" type="submit">Continue</button>
+      </form>
+      <p class="nf-fine">Your code comes from the Mission U team. It works once, for you only.</p>
+    </section>
+
+    
+    <section class="nf-card" id="wizard" aria-labelledby="step-t" hidden>
+      <div class="nf-progress">
+        <p class="nf-count" aria-live="polite"><span id="step-n">Step 1 of 8</span> · <b id="step-name"></b></p>
+        <ol class="nf-bar" id="step-bar" aria-hidden="true"></ol>
+      </div>
+      <p class="nf-restored" id="restored" hidden>We restored your saved answers. <button type="button" class="nf-link" id="start-over">Start over</button></p>
+      <form id="nf-form" novalidate autocomplete="on">
+        <h2 id="step-t" class="nf-h" tabindex="-1"></h2>
+        <div id="step-body"></div>
+        
+        <div class="hp" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+        <p class="f-err nf-send-err" id="send-err" role="alert" hidden></p>
+        <div class="nf-nav">
+          <button class="btn btn-ghost" type="button" id="back">Back</button>
+          <button class="btn" type="submit" id="next">Next</button>
+        </div>
+      </form>
+      <p class="nf-fine">Your answers are saved on this device until you send the form, so you can close the page and come back. <button type="button" class="nf-link" id="clear-draft">Clear saved answers</button></p>
+    </section>
+
+    
+    <section class="nf-card nf-end" id="stop" hidden aria-labelledby="stop-t">
+      <h2 id="stop-t" class="nf-h" tabindex="-1">Thanks for your interest!</h2>
+      <p class="nf-lead">The Nutrition Review is for adult Mission U clients only. If you are under 18, please talk to your parent and your doctor about nutrition.</p>
+      <div class="nf-nav">
+        <button class="btn btn-ghost" type="button" id="stop-back">I entered the wrong date</button>
+        <a class="btn" href="/">Back to Mission U</a>
+      </div>
+    </section>
+
+    
+    <section class="nf-card nf-end" id="thanks" hidden aria-labelledby="thanks-t">
+      <svg class="nf-tick" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30"/><path d="M19 33l9 9 17-19"/></svg>
+      <h2 id="thanks-t" class="nf-h" tabindex="-1">Thank you<span id="thanks-name"></span>!</h2>
+      <p class="nf-lead">Your questionnaire is in. We've sent a confirmation to your email. We'll go through your answers and email you your Nutrition Review.</p>
+      <p class="nf-fine">Have meal photos or a body-composition scan? Just reply to the confirmation email and attach them.</p>
+      <div class="nf-nav"><a class="btn" href="/">Back to Mission U</a></div>
+    </section>
+  </div>
+</main>
+
+
+<template id="legal">
+  <div class="nf-legal">
+    <h3>Disclaimer</h3>
+    <p><b>Not medical advice.</b> The Nutrition Review is general healthy-eating guidance from a fitness studio, prepared by a NASM-certified trainer. It is not medical advice, diagnosis or treatment and does not replace your doctor. If you have a health condition, are pregnant or take medication, check any changes with your doctor first.</p>
+  </div>
+</template>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <a class="logo" href="/" aria-label="Mission U home"><span class="logo-word">MISSION</span><svg class="logo-u" viewBox="0 0 40 44" aria-hidden="true"><path d="M8 4v20a12 12 0 0 0 24 0V4"/></svg></a>
+    <div class="foot-links">
+      <a class="foot-ic" href="https://www.instagram.com/mission.u.ems/" target="_blank" rel="noopener" aria-label="Mission U on Instagram (@mission.u.ems)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle class="dot" cx="17.3" cy="6.7" r="1"/></svg><span>Instagram</span></a>
+      <a class="foot-ic" href="mailto:info@mission-u-ems.com" aria-label="Email Mission U"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M4 7l8 6 8-6"/></svg><span>info@mission-u-ems.com</span></a>
+    </div>
+    <nav class="foot-legal" aria-label="Site links"><a class="foot-small" href="/blog/">Blog</a><span class="sep" aria-hidden="true">·</span><a class="foot-small" href="/privacy/">Privacy Policy</a><span class="sep" aria-hidden="true">·</span><a class="foot-small" href="/terms/">Terms of Use</a></nav>
+    <p class="foot-note">Mission U offers fitness training and general wellness information, not medical care. Nothing on this website is medical advice. EMS training is not for everyone: check the <a href="/#contraindications">contraindications</a> and talk to your doctor if you have a health condition. Results vary.</p>
+    <span class="foot-copy">© 2026 Mission U<span class="sep" aria-hidden="true"> · </span>Made by <a class="foot-credit" href="https://mybrandalchemy.com/" target="_blank" rel="noopener">My Brand Alchemy</a></span>
+  </div>
+</footer>
+
+</body>
+</html>

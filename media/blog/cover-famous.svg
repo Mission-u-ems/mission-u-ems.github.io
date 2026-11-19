@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+<defs>
+<radialGradient id="bg" cx="50%" cy="40%" r="80%"><stop offset="0" stop-color="#0d1a3a"/><stop offset=".6" stop-color="#060c1b"/><stop offset="1" stop-color="#04070d"/></radialGradient>
+<radialGradient id="dot"><stop offset="0" stop-color="#eafcff"/><stop offset=".35" stop-color="#5fe3ff" stop-opacity=".5"/><stop offset="1" stop-color="#1d6bff" stop-opacity="0"/></radialGradient>
+<style>
+.c{stroke:rgba(95,227,255,.22);stroke-width:1;fill:none}
+.r{stroke:#5fe3ff;stroke-width:1.6;fill:none;stroke-dasharray:70 1700;stroke-dashoffset:1770;animation:run 5s linear infinite}
+.s{fill:none;stroke:#dff8ff;stroke-width:1.1;stroke-linejoin:round}
+.f{fill:url(#dot);opacity:.15;animation:fl 5s ease-in-out infinite}
+.d{fill:#93a7c2;opacity:.5}
+.o{fill:none;stroke:rgba(95,227,255,.08);stroke-width:1}
+@keyframes run{to{stroke-dashoffset:0}}
+@keyframes fl{0%,100%{opacity:.15}50%{opacity:.9}}
+</style>
+<path id="st" d="M0-22l6.5 14 15.5 1.6-11.6 10.4 3.3 15.2L0 11.4l-13.7 7.8 3.3-15.2L-22-6.4l15.5-1.6z"/>
+</defs>
+<rect width="1200" height="675" fill="url(#bg)"/>
+<circle class="o" cx="600" cy="337" r="150"/><circle class="o" cx="600" cy="337" r="260"/><circle class="o" cx="600" cy="337" r="380"/>
+<g class="d"><circle cx="90" cy="80" r="1.6"/><circle cx="240" cy="560" r="1.3"/><circle cx="1110" cy="120" r="1.6"/><circle cx="980" cy="600" r="1.2"/><circle cx="420" cy="90" r="1.1"/><circle cx="760" cy="620" r="1.4"/><circle cx="60" cy="400" r="1.2"/><circle cx="1150" cy="420" r="1.3"/><circle cx="520" cy="560" r="1"/><circle cx="700" cy="70" r="1.2"/></g>
+<path id="p" class="c" d="M210 430L360 250L560 330L650 160L840 290L1000 210M560 330L620 500L840 290M360 250L300 120"/>
+<use href="#p" class="r"/>
+<g><circle class="f" cx="210" cy="430" r="46"/><use href="#st" class="s" x="210" y="430"/></g>
+<g><circle class="f" cx="360" cy="250" r="46" style="animation-delay:.6s"/><use href="#st" class="s" x="360" y="250"/></g>
+<g><circle class="f" cx="560" cy="330" r="60" style="animation-delay:1.2s"/><use href="#st" class="s" x="560" y="330" transform="translate(560 330) scale(1.4) translate(-560 -330)"/></g>
+<g><circle class="f" cx="650" cy="160" r="46" style="animation-delay:1.8s"/><use href="#st" class="s" x="650" y="160"/></g>
+<g><circle class="f" cx="840" cy="290" r="54" style="animation-delay:2.4s"/><use href="#st" class="s" x="840" y="290"/></g>
+<g><circle class="f" cx="1000" cy="210" r="40" style="animation-delay:3s"/><use href="#st" class="s" x="1000" y="210" transform="translate(1000 210) scale(.8) translate(-1000 -210)"/></g>
+<g><circle class="f" cx="620" cy="500" r="40" style="animation-delay:3.6s"/><use href="#st" class="s" x="620" y="500" transform="translate(620 500) scale(.8) translate(-620 -500)"/></g>
+<g><circle class="f" cx="300" cy="120" r="34" style="animation-delay:4.2s"/><use href="#st" class="s" x="300" y="120" transform="translate(300 120) scale(.7) translate(-300 -120)"/></g>
+</svg>
